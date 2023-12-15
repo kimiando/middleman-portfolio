@@ -1,5 +1,5 @@
 <nav class="navbar">
-  <h1 class="logo">kimi</h1>
+  <h1 class="logo">kimiko ando</h1>
   <ul class= "desktop-list">
     <li><%= link_to "Home", "banner.html" %></li>
     <li><%= link_to "About", "about.html" %></li>
@@ -15,10 +15,29 @@
   </ul>
 </ul>
 </nav>
-<%#  %>
-<div class="row justify-content-center banner">
-  <div class="col-12 d-flex flex-column justify-content-center align-items-center h-100">
-    <%= image_tag 'placeholder.png', alt: "profile photo", class: 'avatar' %>
-    <h1 class="title-main">Kimiko Ando</h1>
+<section id="profile">
+  <div class="section-pic-container">
+    <%= image_tag 'propic4.jpg', alt: "profile photo", class: 'section-pic-container' %>
   </div>
-</div>
+  <div class="section-text">
+    <p class="section-text1">Hello, I'm</p>
+    <h1 class="title">Kimi</h1>
+    <p class="section-text2">Full Stack Developer</p>
+    <div id="contact">
+      <div class="main-social-container">
+        <div class="social-container">
+          <i class="fa-solid fa-envelope"></i>
+          <%= mail_to "kimiko.ando13@icloud.com", "", class: 'button-social-link' %>
+        </div>
+        <div class="social-container">
+          <i class="fa-brands fa-github"></i>
+          <%= link_to "", "https://github.com/kimiando", target: '_blank', class: 'button-social-link' %>
+        </div>
+        <div class="social-container">
+          <i class="fa-brands fa-linkedin"></i>
+          <%= link_to "", "https://www.linkedin.com/in/kimiko-ando-9536b9189/", target: '_blank', class: 'button-social-link' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

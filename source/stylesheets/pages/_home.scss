@@ -1,1 +1,57 @@
 // Specific CSS for your home-page
+// section{
+//   padding-top: 4vh;
+//   height: 96vh;
+//   margin: 0 10rem;
+//   box-sizing: border-box;
+//   min-height: fit-content;
+// }
+
+.section-container{
+  display: flex;
+}
+
+// profile section
+#profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 100vh;
+}
+.section-pic-container{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.section-text{
+  align-self: center;
+  text-align: center;
+}
+
+.section-text p{
+  font-weight: 600;
+}
+.section-text1{
+  text-align: center;
+}
+.section-text2{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.title{
+  font-size: 3rem;
+  text-align: center;
+}
+.main-social-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.section-pic-container{
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid orange;
+}
