@@ -1,24 +1,47 @@
-- name: Longest Word Game
+- name: SongFLow
+  role: Backend Developer
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Sinister Staycation
+  role: Fullstack Developer
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
 - name: Movie Watchlist
+  role: Fullstack Developer
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Airbnb
+- name: Giphy Search
+  role: Backend Developer
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Final project
+- name: To Do List (Ruby)
+  role: Fullstack Developer
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Yelp
+- name: To Do List (React)
+  role: Fullstack Developer
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Coffee Bean
+  role: Frontend Developer
+  description: simple landing page for coffee shops
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Soluna
+  role: Fullstack Developer
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
