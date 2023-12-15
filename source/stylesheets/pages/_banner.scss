@@ -92,3 +92,17 @@ body {
     height: 26px;
     transition: 2s;
   }
+
+  @media screen and (max-width: 800px) {
+    #profile{
+      height: 83vh;
+      margin-top: 6rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      /* margin-bottom: 6rem; */
+      display: block;
+      .section-text{
+        margin-top: 40px;
+      }
+  }
+  }
