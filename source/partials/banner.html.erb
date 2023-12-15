@@ -1,6 +1,24 @@
+<nav class="navbar">
+  <h1 class="logo">kimi</h1>
+  <ul class= "desktop-list">
+    <li><%= link_to "Home", "banner.html" %></li>
+    <li><%= link_to "About", "about.html" %></li>
+    <li><%= link_to "Projects", "projects.html" %></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <ul>
+    <ul class="mobile">
+      <li><i class="fa-thin fa-house" style="color: #565926;"></i></li>
+      <li><i class="fa-thin fa-user" style="color: #647e2a;"></i></li>
+      <li><i class="fa-thin fa-address-book" style="color: #507e2a;"></i></li>
+      <li><i class="fa-thin fa-list" style="color: #435520;"></i></li>
+    </ul>
+  </ul>
+</nav>
+<%#  %>
 <div class="row justify-content-center banner">
   <div class="col-12 d-flex flex-column justify-content-center align-items-center h-100">
     <%= image_tag 'placeholder.png', alt: "profile photo", class: 'avatar' %>
-    <h1 class="title-main">Portfolio</h1>
+    <h1 class="title-main">Kimiko Ando</h1>
   </div>
 </div>
