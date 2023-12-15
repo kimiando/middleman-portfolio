@@ -8,7 +8,11 @@ a{
 text-decoration: none;
 color:#D19C29
 }
-
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
 .navbar{
   padding: 10px 20px;
   display: block;
