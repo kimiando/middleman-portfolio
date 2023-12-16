@@ -17,12 +17,14 @@
   justify-content: center;
   gap: 5rem;
   height: 100vh;
+  margin-right: 224px;
+  margin-left: 60px;
 }
 .section-pic-container{
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  height: 380px;
+  width: 380px;
+  margin: auto;
 }
 .section-text{
   align-self: center;
@@ -53,5 +55,5 @@
 .section-pic-container{
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid #DAC0A3;
+  // border: 2px solid #DAC0A3;
 }
