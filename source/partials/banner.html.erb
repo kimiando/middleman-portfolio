@@ -8,47 +8,58 @@
   </ul>
   <ul>
     <ul class="mobile">
-      <li><i class="fa-solid fa-house" style="color: white;"></i></li>
-      <li><i class="fa-regular fa-user" style="color: white;"></i></li>
-      <li><i class="fa-solid fa-list" style="color: white;"></i></i></li>
-    <li><i class="fa-solid fa-address-book"style="color: white;"></i></li>
-  </ul>
-</ul>
-</nav>
-<section id="profile">
-  <div class="section-pic-container">
-    <%= image_tag 'propic4.jpg', alt: "profile photo", class: 'section-pic-container' %>
-  </div>
-  <div class="section-text">
-    <p class="section-text1">Hello, I'm</p>
-    <h1 class="title">Kimi</h1>
-    <p class="section-text2">Full Stack Developer</p>
-    <i class="devicon-ruby-plain colored"></i>
-    <i class="devicon-rails-plain colored"></i>
-    <i class="devicon-html5-plain colored"></i>
-    <i class="devicon-css3-plain colored"></i>
-    <i class="devicon-heroku-original colored"></i>
-    <i class="devicon-javascript-plain colored"></i>
-    <i class="devicon-postgresql-plain colored"></i>
-    <i class="devicon-figma-plain colored"></i>
-    <i class="devicon-git-plain colored"></i>
-    <i class="devicon-vuejs-plain colored"></i>
-    <i class="devicon-react-original colored"></i>
-    <div id="contact">
-      <div class="main-social-container">
-        <div class="button-social social-container">
-          <i class="fa-solid fa-envelope"></i>
-          <%= mail_to "kimiko.ando13@icloud.com", "", class: 'button-social-link' %>
-        </div>
-        <div class="button-social social-container">
-          <i class="fa-brands fa-github"></i>
-          <%= link_to "", "https://github.com/kimiando", target: '_blank', class: 'button-social-link' %>
-        </div>
-        <div class="button-social social-container">
-          <i class="fa-brands fa-linkedin"></i>
-          <%= link_to "", "https://www.linkedin.com/in/kimiko-ando-9536b9189/", target: '_blank', class: 'button-social-link' %>
+      <li><% link_to "index.html" do %>
+          <i class="fa-solid fa-house mobile-icon" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to "/#about.html" do %>
+          <i class="fa-regular fa-user mobile-icon" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to "/#project.html" do %>
+          <i class="fa-solid fa-list mobile-icon" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to"contact.html" do %>
+          <i class="fa-solid fa-address-book mobile-icon"style="color: white;"></i>
+        <% end %>
+      </ul>
+    </ul>
+  </nav>
+  <section id="profile">
+    <div class="section-pic-container">
+      <%= image_tag 'propic4.jpg', alt: "profile photo", class: 'section-pic-container' %>
+    </div>
+    <div class="section-text">
+      <p class="section-text1">Hello, I'm</p>
+      <h1 class="title">Kimi</h1>
+      <p class="section-text2">Full Stack Developer</p>
+      <i class="devicon-ruby-plain colored"></i>
+      <i class="devicon-rails-plain colored"></i>
+      <i class="devicon-html5-plain colored"></i>
+      <i class="devicon-css3-plain colored"></i>
+      <i class="devicon-heroku-original colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-postgresql-plain colored"></i>
+      <i class="devicon-figma-plain colored"></i>
+      <i class="devicon-git-plain colored"></i>
+      <i class="devicon-vuejs-plain colored"></i>
+      <i class="devicon-react-original colored"></i>
+      <div id="contact">
+        <div class="main-social-container">
+          <div class="button-social social-container">
+            <i class="fa-solid fa-envelope"></i>
+            <%= mail_to "kimiko.ando13@icloud.com", "", class: 'button-social-link' %>
+          </div>
+          <div class="button-social social-container">
+            <i class="fa-brands fa-github"></i>
+            <%= link_to "", "https://github.com/kimiando", target: '_blank', class: 'button-social-link' %>
+          </div>
+          <div class="button-social social-container">
+            <i class="fa-brands fa-linkedin"></i>
+            <%= link_to "", "https://www.linkedin.com/in/kimiko-ando-9536b9189/", target: '_blank', class: 'button-social-link' %>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
