@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+
+@media screen and (max-width: 800px) {
+  #profile{
+    height: 90vh;
+    margin-top: 6rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    /* margin-bottom: 6rem; */
+    display: block;
+    .section-text{
+      margin-top: 40px;
+    }
+}
+}
+
 a{
 text-decoration: none;
 color:#D19C29
@@ -38,6 +53,7 @@ a:hover {
 }
 .mobile{
   display: none;
+
 }
 @media only screen and (max-width: 991px){
   .navbar .desktop-list {
@@ -64,9 +80,21 @@ a:hover {
     .logo{
       margin: 3px;
     }
+    .mobile-icon{
+      font-size: 30px;
+    }
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .section-pic-container{
+  margin: -4px;
+    // border: 0px solid #DAC0A3;
+}
+.logo{
+  margin: 3px;
+}
+}
 @media only screen and (max-width: 430px){
   .navbar .desktop-list {
     display: none;
@@ -104,15 +132,7 @@ a:hover {
     font-size: 30px;
   }
 }
-@media only screen and (max-width: 400px) {
-  .section-pic-container{
-  margin: -4px;
-    // border: 0px solid #DAC0A3;
-}
-.logo{
-  margin: 3px;
-}
-}
+
 //
 body {
   transition: 1.5s;
@@ -149,16 +169,6 @@ body {
     margin-top: 10px;
   }
 
-  @media screen and (max-width: 800px) {
-    #profile{
-      height: 90vh;
-      margin-top: 6rem;
-      margin-left: 0rem;
-      margin-right: 0rem;
-      /* margin-bottom: 6rem; */
-      display: block;
-      .section-text{
-        margin-top: 40px;
-      }
-  }
+  .devicon {
+    font-size: 20px;
   }
