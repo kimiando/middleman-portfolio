@@ -1,0 +1,43 @@
+<nav class="navbar">
+  <h1 class="logo-contact">kimiko ando</h1>
+  <ul class= "desktop-list">
+    <li><%= link_to "Home", "index.html" %></li>
+    <li><%= link_to "About", "/#about.html" %></li>
+    <li><%= link_to "Projects", "/#project.html" %></li>
+    <li><%= link_to "Contact", "contact.html" %></li>
+    <li>
+      <div class="night-toggle-contact" onClick="switchMode()">
+        <div id="moon" class="moon-contact"></div>
+      </div>
+    </li>
+  </ul>
+  <ul>
+    <ul class="mobile">
+      <li><% link_to "index.html" do %>
+          <i class="fa-solid fa-house" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to "/#about.html" do %>
+          <i class="fa-regular fa-user" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to "/#project.html" do %>
+          <i class="fa-solid fa-list" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to"contact.html" %><i class="fa-solid fa-address-book"style="color: white;"></i></li>
+    </ul>
+  </ul>
+</nav>
+<section id="social">
+  <div class="socials-container">
+    <h2 class="contact-title">Contact</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
+      quae at obcaecati necessitatibus recusandae in? Nihil sit doloremque delectus rem vel ipsa,
+      doloribus dignissimos cum est ipsum! Nesciunt, eius voluptatem.lorem Lorem ipsum, dolor
+      sit amet consectetur adipisicing elit. Nulla rerum quas sint, harum aut accusamus,
+      deserunt officiis iusto unde commodi veniam itaque velit incidunt magni accusantium
+      voluptates molestias inventore! Voluptas.</p>
+  </div>
+</section>
+<%#  %>

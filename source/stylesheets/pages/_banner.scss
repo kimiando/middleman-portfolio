@@ -17,6 +17,7 @@ a:hover {
   padding: 10px 20px;
   display: block;
   width: 100%;
+  margin: 10px -10px;
 
   ul{
     flex: 1;
@@ -28,7 +29,9 @@ a:hover {
     margin: 0 30px;
   }
 }
-
+// .container{
+//   max-width: 744px;
+// }
 .logo{
   font-size: 35px;
   color: #D19C29
@@ -36,7 +39,7 @@ a:hover {
 .mobile{
   display: none;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 991px){
   .navbar .desktop-list {
     display: none;
   }
@@ -52,12 +55,63 @@ a:hover {
     width: 100%;
     padding: 16px;
     background-color: #DAC0A3;
+    padding-bottom: 30px;
+    justify-content: space-evenly;
+    li{
+      width: 10px;
+      height: 10px;
+    }
+    .logo{
+      margin: 3px;
+    }
+  }
+}
 
+@media only screen and (max-width: 430px){
+  .navbar .desktop-list {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    color: blue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    background-color: #DAC0A3;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
 
+    .section-pic-container{
+      // margin-right: 5px;
+      border-radius: 50%;
+      object-fit: cover;
+      // border: 0px solid #DAC0A3;
+      margin: 0;
+    }
+    .pic-banner {
+      display: flex;
+      height: 380px;
+      width: 380px;
+      margin: auto -4px;
+  }
   }
   .mobile i{
     font-size: 30px;
   }
+}
+@media only screen and (max-width: 400px) {
+  .section-pic-container{
+  margin: -4px;
+    // border: 0px solid #DAC0A3;
+}
+.logo{
+  margin: 3px;
+}
 }
 //
 body {
@@ -83,6 +137,7 @@ body {
     margin-left:8px;
     margin-top:0px;
     transition: 2s;
+    margin-top: 10px;
   }
   .sun {
     background-color: #fdd462;
@@ -91,11 +146,12 @@ body {
     width: 26px;
     height: 26px;
     transition: 2s;
+    margin-top: 10px;
   }
 
   @media screen and (max-width: 800px) {
     #profile{
-      height: 83vh;
+      height: 90vh;
       margin-top: 6rem;
       margin-left: 0rem;
       margin-right: 0rem;
