@@ -1,15 +1,9 @@
-#social{
+#contact{
   height: 50vh;
+  margin: 30px
 }
 @media screen and (max-width: 800px) {
-  #social{
-    height: 83vh;
-    margin-top: 6rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    /* margin-bottom: 6rem; */
-    display: block;
-    margin: 30px;
+  #contact{
     .section-text{
       margin-top: 40px;
     }
@@ -34,9 +28,6 @@
   }
 }
 @media only screen and (max-width: 1400px) {
-  .social{
-    margin: 30px;
-  }
   .socials-container{
     margin-top: 25vh;
     // margin: 30px;
