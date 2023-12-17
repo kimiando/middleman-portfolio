@@ -85,12 +85,19 @@ a:hover {
     }
   }
 }
-
+@media only screen and (max-width: 390px ){
+.section-pic-container {
+    margin: -4px;
+}
+}
 @media only screen and (max-width: 430px) {
   .section-pic-container{
-  margin: -4px;
+  margin: 5px;
     // border: 0px solid #DAC0A3;
 }
+
+
+
 .logo{
   margin: 3px;
 }
