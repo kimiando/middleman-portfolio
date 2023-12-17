@@ -27,3 +27,54 @@
 //   position: relative;
 //   z-index: inherit;
 // }
+//
+.wrapper {
+  // display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  padding: 1rem;
+  word-wrap: break-word;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  border: 1px solid #cdcdcd;
+  color: #333;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.card-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-box {
+  padding: 1rem 0;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-description {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px #999;
+}
