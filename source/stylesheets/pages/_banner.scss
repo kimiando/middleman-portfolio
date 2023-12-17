@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.section-text{
-  margin-bottom: -480px;
-}
 .navbar ul {
   z-index: 1000;
 }
@@ -129,18 +126,19 @@ a:hover {
     margin: -4px;
 }
 }
-@media only screen and (max-width: 430px) {
-  .section-pic-container{
-  margin: 5px;
-    // border: 0px solid #DAC0A3;
-}
+// @media only screen and (max-width: 430px) {
+//   .section-pic-container{
+//     margin: -4px;
+//   }
+//     // border: 0px solid #DAC0A3;
+// }
 
 
 
 .logo{
   margin: 3px;
 }
-}
+
 @media only screen and (max-width: 430px){
   .navbar .desktop-list {
     display: none;
