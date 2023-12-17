@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-
+.navbar ul {
+  z-index: 1000;
+}
 @media screen and (max-width: 800px) {
   #profile{
     height: 90vh;
