@@ -6,7 +6,7 @@
 }
 .go-top-button{
   background-color: white;
-  color: pink;
+  color: #DAC0A3;
   bottom: 35px;
   right: 45px;
   width: 50px;
@@ -20,9 +20,10 @@
   position: fixed;
   cursor: pointer;
   transition: all 0.3s;
-  border: 3px solid black;
+  border: 3px solid #F8F0E5;
   justify-content: center;
   align-content:center ;
+  margin-right: -30px;
 }
 
 
@@ -35,14 +36,24 @@
   bottom: 32px;
   pointer-events: auto;
   opacity: 1;
+  margin-right: -30px;
 }
 @media only screen and (max-width: 991px ){
 
+  .go-top-button.active {
+
+    margin: 65px;
+    /* margin: 42px; */
+    margin-right: -40px;
+  }
   .go-top-button.active {
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
     transition: all 0.3s;
-    margin-bottom: 70px;
+    // margin-bottom: 70px;
+    margin: 65px;
+    /* margin: 42px; */
+    margin-right: -40px;
   }
   }

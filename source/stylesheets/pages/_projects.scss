@@ -1,15 +1,13 @@
 #projects{
   height: 100vh;
+  text-align: center;
+  margin: 87px;
 }
 .project-img{
   width: 100px;
   height: 100px;
 }
 
-#projects{
-  text-align: center;
-  margin: 30px
-}
 .project-header{
   margin-top: 10px;
 }
@@ -24,12 +22,27 @@
 }
 
 @media screen and (max-width: 1100px) {
+  #projects{
+    margin: 46px;
+  }
   .wrapper {
     grid-template-columns: 1fr 1fr;
   }
+  .go-top-button {
+    margin-right: -39px;
+}
+  .go-top-button.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    margin-right: -39px;
+}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
+  #projects{
+    margin: 13px;
+  }
   .wrapper {
     grid-template-columns: 1fr;
   }
