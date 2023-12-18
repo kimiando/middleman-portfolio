@@ -49,12 +49,15 @@
   background: rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   border-radius: 0.25rem;
-  border: 1px solid #cdcdcd;
-  color: #333;
+  border: 1px solidrgba(255, 255, 255, 0.1);;
+  color: #d08c3e;
   text-decoration: none;
   transition: 0.5s;
 }
 
+.card-title {
+  margin-top: 20px;
+}
 .card img {
   width: 100%;
   object-fit: cover;
@@ -62,42 +65,8 @@
 }
 
 .card:hover {
-  box-shadow: 0 10px 20px #999;
+  box-shadow: 0 10px 20px #DAC0A3;
 }
-
-.night-toggle-contact {
-  width: 33px;
-  height: 33px;
-  right: 20px;
-  top: 25px;
-  position: absolute;
-  margin-top: 0px;
-  }
-  //
-  .night-toggle:hover{
-    cursor: pointer;
-  }
-  .moon-contact {
-    background-color: transparent;
-    box-shadow: -6px 1px 0 3px #275e8e;
-    border-left:3px solid #27476D;
-    border-radius:50%;
-    width: 20px;
-    height: 20px;
-    margin-left:8px;
-    transition: 2s;
-    margin-top: 10px;
-  }
-  .sun-contact {
-    background-color: #fdd462;
-    box-shadow: 2px 0px 0px 1px #D19C29;
-    border-radius:50%;
-    width: 26px;
-    height: 26px;
-    transition: 2s;
-    // margin-top: 10px;
-    // margin-top: 0px;
-  }
 
 .external-link {
   margin-left: 8px;
