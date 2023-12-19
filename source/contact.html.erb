@@ -2,57 +2,38 @@
   <h1 class="logo">kimiko ando</h1>
   <ul class= "desktop-list">
     <li><%= link_to "Home", "index.html" %></li>
-    <li><a href="#about">About</a></li>
-    <li><%= link_to "Projects", "myprojects.html" %></li>
-    <li><%= link_to "Contact", "contact.html" %></li>
+    <%# <li><%= link_to "About", "/#about.html" %></li>
+  <li><%= link_to "Projects", "myprojects.html" %></li>
+  <li><%= link_to "Contact", "contact.html" %></li>
+</ul>
+<ul>
+  <ul class="mobile">
+    <li><% link_to "index.html" do %>
+        <i class="fa-solid fa-house mobile-icon" style="color: white;"></i>
+      <% end %>
+    </li>
+    <li><% link_to "myprojects.html" do %>
+        <i class="fa-solid fa-list mobile-icon" style="color: white;"></i>
+      <% end %>
+    </li>
+    <li><% link_to"contact.html" do %>
+        <i class="fa-solid fa-address-book mobile-icon"style="color: white;"></i>
+      <% end %>
+    </ul>
   </ul>
   <ul>
-    <ul class="mobile">
-      <li><% link_to "index.html" do %>
-          <i class="fa-solid fa-house mobile-icon" style="color: white;"></i>
-        <% end %>
-      </li>
-      <li><% link_to "/#about.html" do %>
-          <i class="fa-regular fa-user mobile-icon" style="color: white;"></i>
-        <% end %>
-      </li>
-      <li><% link_to "myprojects.html" do %>
-          <i class="fa-solid fa-list mobile-icon" style="color: white;"></i>
-        <% end %>
-      </li>
-      <li><% link_to"contact.html" do %>
-          <i class="fa-solid fa-address-book mobile-icon"style="color: white;"></i>
-        <% end %>
-      </ul>
-    </ul>
-    <ul>
-      <ul class="mobile">
-        <li><% link_to "index.html" do %>
-            <i class="fa-solid fa-house mobile-icon" style="color: white;"></i>
-          <% end %>
-        </li>
-        <li><% link_to "/#about.html" do %>
-            <i class="fa-regular fa-user mobile-icon" style="color: white;"></i>
-          <% end %>
-        </li>
-        <li><% link_to "/#project.html" do %>
-            <i class="fa-solid fa-list mobile-icon" style="color: white;"></i>
-          <% end %>
-        </li>
-        <li><% link_to"contact.html" %><i class="fa-solid fa-address-book mobile-icon"style="color: white;"></i></li>
-      </ul>
-    </nav>
-    <section id="contact">
-      <div class="contact-card">
-        <i class="card-icon far fa-envelope fa-fade" style="color: #0F2C59;"></i>
-        <a href="mailto:kimiko.ando13@icloud.com">kimiko.ando13@icloud.com</a>
-      </div>
-      <div class="contact-card">
-        <i class="card-icon fa-brands fa-linkedin fa-fade" style="color: #0F2C59;"></i>
-        <a href="https://www.linkedin.com/in/kimiko-ando-9536b9189/">Kimiko Ando</a>
-      </div>
-      <div class="contact-card">
-        <i class=" card-icon fa-solid fa-location-dot fa-fade" style="color: #0F2C59;"></i>
-        <a href="">Tokyo, Japan</a>
-      </div>
-    </section>
+  </nav>
+  <section id="contact">
+    <div class="contact-card">
+      <i class="card-icon far fa-envelope fa-fade" style="color: #0F2C59;"></i>
+      <a href="mailto:kimiko.ando13@icloud.com">kimiko.ando13@icloud.com</a>
+    </div>
+    <div class="contact-card">
+      <i class="card-icon fa-brands fa-linkedin fa-fade" style="color: #0F2C59;"></i>
+      <a href="https://www.linkedin.com/in/kimiko-ando-9536b9189/">Kimiko Ando</a>
+    </div>
+    <div class="contact-card">
+      <i class=" card-icon fa-solid fa-location-dot fa-fade" style="color: #0F2C59;"></i>
+      <a href="">Tokyo, Japan</a>
+    </div>
+  </section>
