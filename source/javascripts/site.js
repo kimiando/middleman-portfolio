@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200;300&family=La+Belle+Aurore&display=swap');
+
 // This is where it all goes :)
 function switchMode() {
   let moon = document.getElementById ("moon");
