@@ -25,9 +25,11 @@
 
 .header-about {
   // text-align: center;
-  border: 2px solid pink;
+  border: 2px solid white;
   background-color: #DAC0A3;
   margin-top: 10px;
+  text-align: center;
+  font-family: 'Diphylleia', serif;
 
   a {
     text-decoration: none;
@@ -332,16 +334,17 @@
 // }
 // }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   .timeline {
     display: grid;
-    grid-template-columns: 1fr 3px 1fr;
+    grid-template-columns: 2fr 3px 1fr;
   }
   .timeline-middle {
     position: relative;
     background-color: #D19C29;
     width: 3px;
     height: 100%;
+    margin-left: 10px;
   }
   .main-middle {
     opacity: 0;
@@ -365,6 +368,101 @@
     margin: 0;
   }
   .about-pic-container{
-    margin: 0;
+    margin: 5px;
+    margin-left: 28%;
+    margin-bottom: 25px;
   }
+
+}
+@media only screen and (max-width: 999px){
+  .about-wrapper {
+    display: block;
+    margin: 0;
+    text-align:justify;
+  }
+  .about-pic-container{
+    margin: 5px;
+    margin-left: 21%;
+    margin-bottom: 25px;
+  }
+  .tab-controls {
+    display: flow;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 801px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 767px){
+  .about-pic-container {
+    margin: 5px;
+    margin-left: 11%;
+    margin-bottom: 25px;
+}
+}
+@media only screen and (max-width: 500px){
+.about-pic-container {
+    margin: 5px;
+    margin-left: 7%;
+    margin-bottom: 25px;
+}
+}
+@media only screen and (max-width: 450px){
+.about-pic-container {
+    width: 350;
+    height: 450px;
+    margin: 5px;
+    margin-left: 2%;
+    margin-bottom: 25px;
+}
+}
+@media only screen and (max-width: 430px){
+.about-pic-container {
+  width: 350px;
+  height: 450px;
+  /* margin: 0px; */
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+}
+@media only screen and (max-width: 414px){
+.about-pic-container {
+    width: 350px;
+    height: 450px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+}
+}
+
+@media only screen and (max-width: 390px){
+.about-pic-container {
+  width: 320px;
+  height: 420px;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+}
+@media only screen and (max-width: 350px){
+  #profile{
+    height:90vh;
+  }
+.about-pic-container {
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-left: -6px;
+}
 }
