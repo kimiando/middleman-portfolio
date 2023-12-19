@@ -233,6 +233,25 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 380px){
+  #profile{
+    height: 100vh;
+    font-size: small;
+    .section-pic-container {
+      display: flex;
+      height: 320px;
+      width: 320px;
+      margin: auto;
+  }
+  .section-text {
+    font-family: 'Diphylleia', serif;
+    font-size: 20px;
+}
+  }
+  .container{
+    padding: 0;
+  }
+}
 //
 body {
   transition: 1.5s;
