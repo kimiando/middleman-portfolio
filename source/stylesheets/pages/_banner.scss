@@ -29,6 +29,10 @@
 }
 }
 
+.section-text-banner{
+  margin: 20px;
+}
+
 a{
 text-decoration: none;
 color:#D19C29
@@ -61,7 +65,7 @@ a:hover {
   font-size: 40px;
   color: #D19C29;
   font-family: 'Caveat', cursive;
-  margin: -3px;
+  margin: 3px;
 }
 .mobile{
   display: none;
@@ -90,7 +94,7 @@ a:hover {
       height: 10px;
     }
     .logo{
-      margin: -3px;
+      margin: 3px;
     }
     .mobile-icon{
       font-size: 30px;
@@ -162,18 +166,10 @@ a:hover {
 }
 }
 @media only screen and (max-width: 767px ){
-// #profile{
-  // display: contents;
-  // // height: 100vh;
-  // margin-right: 190px;
-  // margin-left: 140px;
-  // margin-top: 115px;
-// }
 #profile{
   height: 90vh;
-  margin-top: 6rem;
-  margin-left: 0rem;
-  margin-right: 0rem;
+  margin-top: 4rem;
+  margin-left: 1rem;
   display: block;
   /* margin-bottom: 6rem; */
   display: content;
@@ -181,18 +177,14 @@ a:hover {
     margin-top: 40px;
   }
 }
+.section-pic-container{
+margin: auto;
+margin-left: -1px;
 }
-// @media only screen and (max-width: 430px) {
-//   .section-pic-container{
-//     margin: -4px;
-//   }
-//     // border: 0px solid #DAC0A3;
-// }
-
-
+}
 
 .logo{
-  margin: -3px;
+  margin: 3px;
 }
 
 @media only screen and (max-width: 430px){
@@ -225,7 +217,7 @@ a:hover {
       display: flex;
       height: 380px;
       width: 380px;
-      margin: auto -4px;
+      margin: auto -2px;
   }
   }
   .mobile i{
@@ -233,15 +225,15 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 390px){
   #profile{
-    height: 100vh;
+    height: 80vh;
     font-size: small;
     .section-pic-container {
       display: flex;
       height: 320px;
       width: 320px;
-      margin: auto;
+      margin: 9px;
   }
   .section-text {
     font-family: 'Diphylleia', serif;
@@ -251,6 +243,17 @@ a:hover {
   .container{
     padding: 0;
   }
+}
+@media only screen and (max-width: 370px){
+#profile .section-pic-container {
+    display: flex;
+    height: 320px;
+    width: 320px;
+    margin: 0px;
+}
+.about-pic-container{
+  margin-left: 4px;
+}
 }
 //
 body {
