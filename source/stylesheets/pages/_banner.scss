@@ -22,28 +22,34 @@
     .section-text{
       margin-top: 40px;
   }
-
+  .mobile{
+    padding: 25px;
+    padding-bottom: 50px;
+    .mobile-icon{
+      font-size: 30px;
+    }
+  }
 }
 .section-text{
   font-family: 'Diphylleia', serif;
   font-size: 25px;
 }
 }
-@media only screen and (max-width: 700px){
-#profile {
-    height: 90vh;
-    margin-top: 4rem;
-    margin-left: 5rem;
+// @media only screen and (max-width: 700px){
+// #profile {
+//     height: 90vh;
+//     margin-top: 4rem;
+//     margin-left: 5rem;
 
-    display: block;
-    display: content;
+//     display: block;
+//     display: content;
 
-}
-.section-text{
-  font-family: 'Diphylleia', serif;
-  font-size: 25px;
-}
-}
+// }
+// .section-text{
+//   font-family: 'Diphylleia', serif;
+//   font-size: 25px;
+// }
+// }
 @media only screen and (max-width: 700px){
 #profile {
     height: 90vh;
@@ -54,6 +60,9 @@
 }
 .section-text-banner{
   margin: 20px;
+}.section-text{
+  font-family: 'Diphylleia', serif;
+  font-size: 25px;
 }
 }
 a{
@@ -69,12 +78,12 @@ a:hover {
   padding: 10px 20px;
   display: block;
   width: 100%;
-  margin: 10px -10px;
+  margin: 2px -10px;
 
   ul{
     flex: 1;
     text-align: right;
-    margin-top: -34px;
+    margin-top: -40px;
   }
   ul li{
     display: inline-block;
@@ -88,7 +97,7 @@ a:hover {
   font-size: 40px;
   color: #D19C29;
   font-family: 'Caveat', cursive;
-  margin: 3px;
+  margin: -3px;
 }
 .mobile{
   display: none;
@@ -117,7 +126,7 @@ a:hover {
       height: 10px;
     }
     .logo{
-      margin: 3px;
+      margin: -3px;
     }
     .mobile-icon{
       font-size: 30px;
@@ -162,7 +171,7 @@ a:hover {
 
 
 .logo{
-  margin: 3px;
+  margin: -3px;
 }
 
 @media only screen and (max-width: 430px){
@@ -211,7 +220,7 @@ a:hover {
       display: flex;
       height: 320px;
       width: 320px;
-      margin: 9px;
+      margin: 17px;
   }
   .section-text {
     font-family: 'Diphylleia', serif;
