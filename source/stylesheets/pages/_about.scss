@@ -136,6 +136,7 @@
       transform: translateY(0);
       transition: 0.3s ease-in-out;
       margin-bottom: 110px;
+      line-height: 25px;
   }
 
   @media (min-width: 40rem) {
@@ -389,6 +390,10 @@ p{
   margin-top: -34px;
   // margin-bottom: 47px;
 }
+.youtube-vid{
+  width: 5000px;
+  height: 315px;
+}
 }
 @media only screen and (max-width: 767px){
   .about-pic-container {
@@ -426,6 +431,10 @@ p{
   margin-left: 12px;
   margin-bottom: 25px;
 }
+.youtube-vid{
+  width: 400px;
+  height: 215px;
+}
 }
 @media only screen and (max-width: 414px){
 .about-pic-container {
@@ -444,6 +453,7 @@ p{
   margin-bottom: 25px;
   margin-left: 15px;
 }
+
 }
 @media only screen and (max-width: 350px){
 .about-pic-container {
