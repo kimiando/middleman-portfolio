@@ -1,3 +1,7 @@
+.about-wrapper * {
+  box-sizing: border-box;
+}
+
 #about{
   height: 100vh;
 }
@@ -47,6 +51,7 @@
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
+    font-family: 'Diphylleia', serif;
 }
 
 .tab-controls {
@@ -60,7 +65,7 @@
   row-gap: 28px;
   @media (min-width: 40rem) {
     display: flex;
-    padding: 0;
+    // padding: 0;
     border: none;
     flex-direction: row;
     flex-wrap: wrap;
@@ -68,6 +73,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     text-align: justify;
+    font-family: 'Diphylleia', serif;
   }
   li {
       display: block;
@@ -97,14 +103,14 @@
 
   label {
       font-size: 1.2rem;
-      color: black;
+      color: #DAC0A3;
       text-transform: uppercase;
       text-decoration: none;
       transition: 0.3s ease-in-out;
       cursor: pointer;
 
       &:hover {
-          color: white;
+          color: #0F2C59;
       }
   }
 }
@@ -112,12 +118,16 @@
 .tab-input {
   display: none;
 }
+// .tab-content {
+//   color:
+// }
 
 .tab-item {
-  position: absolute;
+  position: fixed;
   visibility: hidden;
   opacity: 0;
   transform: translateY(10px);
+  font-family: 'Diphylleia', serif;
 
   .tab-input:checked + & {
       position: static;
@@ -125,95 +135,47 @@
       opacity: 1;
       transform: translateY(0);
       transition: 0.3s ease-in-out;
+      margin-bottom: 110px;
   }
 
   @media (min-width: 40rem) {
       font-size: 1.2rem;
-      line-height: 2;
-      padding: 19px;
+      // line-height: 2;
+      // padding: 19px;
   }
 }
 
-
-// @media only screen and (max-width: 991px ){
-//   .about-wrapper {
-//     display: unset;
-//     padding: 1rem;
-//     overflow: auto;
-//     margin-top: 60px;
-//     .about-pic-container{
-//       margin-top: 20px;
-//       margin-left: 20%;
-//     margin-bottom: -40px;
-//     }
-//   }
-// }
-// @media only screen and (max-width: 767px ){
-//   .about-wrapper {
-//     display: unset;
-//     padding: 1rem;
-//     overflow: auto;
-//     margin-top: 60px;
-//     .about-pic-container{
-//       margin-top: 20px;
-//       margin-left: 11%;
-//     margin-bottom: -50px;
-//     }
-//   }
-// }
-// @media only screen and (max-width: 639px ){
-//   .about-wrapper {
-//     display: unset;
-//     padding: 1rem;
-//     overflow: auto;
-//     margin-top: 60px;
-//     .about-pic-container{
-//       margin-top: 20px;
-//       margin-left: 11%;
-//     margin-bottom: -50px;
-//     }
-//     .tab-controls {
-//       /* text-align: center; */
-//       width: 100%;
-//       margin: 0;
-//       padding: 0 0 1rem;
-//       margin-top: 90px;
-//       /* display: grid; */
-//       align-content: stretch;
-//       /* justify-items: stretch; */
-//       display: flex;
-//       flex-wrap: wrap;
-//       flex-direction: row;
-//       justify-content: space-evenly;
-//       align-items: center;
-//       text-align: justify;
-//       margin-top: 75px;
-//   }
-//   }
-// }
-
-// @media only screen and (max-width: 450px){
-//   #about{
-//     margin: 10px;
-//   }
-// .about-wrapper .about-pic-container {
-//   margin: unset;
-//   margin-bottom: -50px;
-//   margin-top: 20px;
-//   margin-left: -13px;
-// }
-// }
-// @media only screen and (max-width: 420px){
-// .about-wrapper .about-pic-container {
-//     width:300px;
-//     height: 400px;
-//     margin: auto;
-//     margin-top: 15px;
-//     // margin-left: -11px;
-//     margin-left: 20px;
-// }
-// }
-
+@media only screen and (max-width: 640px){
+.tab-controls {
+    display: flex;
+    padding: 0;
+    border: none;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 999px){
+  #about{
+    height: 80vh ;
+  }
+.tab-controls {
+  display: flex;
+  padding: 0;
+  border: none;
+  /* text-align: center; */
+  /* flex-wrap: wrap; */
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+#contact {
+  padding: 64px;
+}
+}
 
 // BUTTON CSS
 
@@ -291,7 +253,7 @@
 
 .timeline {
   width: 80%;
-  height: auto;
+  // height: auto;
   max-width: 800px;
   margin: 0 auto;
   display: flex;
@@ -333,7 +295,9 @@
 //     flex-wrap: nowrap;
 // }
 // }
-
+p{
+  text-align: justify;
+}
 @media screen and (min-width: 1000px) {
   .timeline {
     display: grid;
@@ -363,9 +327,15 @@
 }
 
 @media only screen and (max-width: 1199px){
+  #about {
+    height: 130vh;
+}
+
+
   .about-wrapper {
     display: block;
     margin: 0;
+    // height: 115vh;
   }
   .about-pic-container{
     margin: 5px;
@@ -385,15 +355,9 @@
     margin-left: 21%;
     margin-bottom: 25px;
   }
-  .tab-controls {
-    display: flow;
-    padding: 0;
-    border: none;
-    text-align: center;
-}
   .timeline {
     width: 80%;
-    height: auto;
+    // height: auto;
     max-width: 801px;
     margin: 0 auto;
     display: flex;
@@ -403,12 +367,39 @@
     justify-content: center;
     align-items: center;
 }
+.tab-controls {
+  display: flex;
+  padding: 0;
+  border: none;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 130px;
+}
+.mobile{
+  display: contents;
+}
+.my-navbar ul {
+  flex: 1;
+  text-align: right;
+  margin-top: -34px;
+  // margin-bottom: 47px;
+}
 }
 @media only screen and (max-width: 767px){
   .about-pic-container {
-    margin: 5px;
-    margin-left: 11%;
+    margin: 0;
+    margin-left: 10%;
     margin-bottom: 25px;
+    .about-wrapper {
+      p{
+      text-align:justify;
+      }
+    }
 }
 }
 @media only screen and (max-width: 500px){
@@ -432,7 +423,7 @@
   width: 350px;
   height: 450px;
   /* margin: 0px; */
-  margin-left: 15px;
+  margin-left: 12px;
   margin-bottom: 25px;
 }
 }
@@ -451,13 +442,10 @@
   height: 420px;
   margin: 0;
   margin-bottom: 25px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 }
 @media only screen and (max-width: 350px){
-  #profile{
-    height:90vh;
-  }
 .about-pic-container {
   width: 300px;
   height: 400px;
