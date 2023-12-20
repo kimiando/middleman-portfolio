@@ -10,6 +10,9 @@
 
 .project-header{
   margin-top: 10px;
+  h1{
+    font-family: 'Tenor Sans';
+  }
 }
 .wrapper {
   display: grid;
@@ -74,6 +77,10 @@
 
 .card-title {
   margin-top: 20px;
+  font-family: 'Tenor Sans';
+}
+.caed-descriptioN{
+  font-family: 'Tenor Sans';
 }
 .card img {
   width: 100%;
