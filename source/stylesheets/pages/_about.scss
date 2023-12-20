@@ -21,6 +21,11 @@
     font-family: 'Kalnia', serif;
   }
 }
+.header-about{
+  h1{
+    color: #0F2C59;
+  }
+}
   .about-pic-container {
     width: 380px;
     height: 450px;
@@ -101,20 +106,23 @@
       }
   }
 
-  label {
-      font-size: 1.2rem;
-      color: #DAC0A3;
-      text-transform: uppercase;
-      text-decoration: none;
-      transition: 0.3s ease-in-out;
-      cursor: pointer;
+}
+li label {
+  font-size: 1.2rem;
+  color: #DAC0A2;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 
-      &:hover {
-          color: #0F2C59;
-      }
+  &:hover {
+    color: #D19C29;
+  }
+
+  &:active {
+    color: #D19C29;
   }
 }
-
 .tab-input {
   display: none;
 }
@@ -283,19 +291,6 @@
 }
 }
 
-
-// @media screen and (min-width: 999px) {
-//   .about-wrapper {
-//     display: flex;
-//     justify-content: center;
-//     gap: 1rem;
-//     padding: 1rem;
-//     overflow: auto;
-//     margin-top: 10px;
-//     flex-direction: column;
-//     flex-wrap: nowrap;
-// }
-// }
 p{
   text-align: justify;
 }

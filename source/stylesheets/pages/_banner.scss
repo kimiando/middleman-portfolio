@@ -6,6 +6,9 @@
 
 .navbar ul {
   z-index: 1000;
+  a:hover{
+
+  }
 }
 #profile{
   height: 100vh;
@@ -35,21 +38,6 @@
   font-size: 25px;
 }
 }
-// @media only screen and (max-width: 700px){
-// #profile {
-//     height: 90vh;
-//     margin-top: 4rem;
-//     margin-left: 5rem;
-
-//     display: block;
-//     display: content;
-
-// }
-// .section-text{
-//   font-family: 'Diphylleia', serif;
-//   font-size: 25px;
-// }
-// }
 @media only screen and (max-width: 700px){
 #profile {
     height: 90vh;
@@ -70,9 +58,9 @@ text-decoration: none;
 color:#D19C29
 }
 a:hover {
-  color: #DAC0A3;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
+  color: #D19C29;
+  // text-decoration: underline;
+  // text-underline-offset: 1rem;
 }
 .navbar{
   padding: 10px 20px;
@@ -90,6 +78,16 @@ a:hover {
     display: inline-block;
     margin: 0 30px;
   }
+  a{
+    text-decoration: none;
+    color:#D19C29
+    }
+    a:hover {
+      color: #cba85db7;
+      cursor: none;
+      // text-decoration: underline;
+      // text-underline-offset: 1rem;
+    }
 }
 // .container{
 //   max-width: 744px;
