@@ -74,6 +74,7 @@ justify-content: center;
 // max-width: 1200px;
 align-items: center;
 padding: 0 20px;
+height: 100vh;
   }
 
   .contact-card{
@@ -81,7 +82,7 @@ padding: 0 20px;
     padding: 0 20px;
     margin: 0 10px;
     width: 400px;
-    height: 300px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,13 +130,35 @@ padding: 0 20px;
 #contact{
   flex-direction: column;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .card{
   width: 100%;
   // max-width: 250px;
   margin: 10px 0;
+  font-size: 20px;
 }
 .contact-card{
   width: calc(100% - 23%);
+}
+  }
+  @media screen and (max-width: 500px) {
+#contact{
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-card {
+  width: calc(125% - 23%);
+}
+  }
+  @media screen and (max-width: 400px) {
+#contact{
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.contact-card {
+  width: calc(125% - 23%);
 }
   }
