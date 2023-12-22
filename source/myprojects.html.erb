@@ -32,9 +32,12 @@
       <div class="card">
         <%= image_tag project.image, alt: "project image" %>
         <div class="card-box">
-          <h2 class="card-title"><%= project.name %></h2>
-          <p><%= project.role %></p>
-          <p class="card-description"><%= project.description %></p>
+          <div class="card-proj">
+            <h2 class="card-title"><%= project.name %></h2>
+            <p class="card-role"><%= project.role %></p>
+            <p><%= project.techstack %></p>
+            <p class="card-description"><%= project.description %></p>
+          </div>
           <% link_to project.github, class: 'external-link', target: '_blank' do %>
             <i class="fa-brands fa-github"></i>
           <% end %>

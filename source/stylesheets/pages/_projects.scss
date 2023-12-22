@@ -1,5 +1,5 @@
 #projects{
-  height: 100vh;
+  height: auto;
   text-align: center;
   margin: 87px;
 }
@@ -21,7 +21,8 @@
   gap: 1rem;
   padding: 1rem;
   overflow: auto;
-  margin-top: 60px;
+  margin-top: 25px;
+  margin-bottom: 400px;
 }
 .my-navbar{
   font-family: 'Diphylleia', serif;
@@ -44,6 +45,16 @@
     opacity: 1;
     margin-right: -39px;
 }
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+}
+@media screen and (max-width: 900px) {
+.card img {
+  height: 185px;
+}
 }
 
 @media screen and (max-width: 750px){
@@ -57,6 +68,24 @@
     width: 100%;
     /* max-width: 250px; */
     margin: 10px 0;
+}
+}
+@media screen and (max-width: 500px){
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.card-box{
+  .card-title{
+    font-size: 32px;
+  }
+  .card-role{
+    font-size: 20px;
+  }
+  .card-description{
+    font-size: 18px;
+  }
 }
 }
 
@@ -75,18 +104,28 @@
   transition: 0.5s;
 }
 
+.card-proj{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 12px;
+}
 .card-title {
-  margin-top: 20px;
+  margin-top: 15px;
+  font-size: 35px;
   font-family: 'Tenor Sans';
 }
-.caed-descriptioN{
+.card-role{
+font-size: 20px;
+}
+.card-description{
   font-family: 'Tenor Sans';
+  font-size: 23px;
 }
-.card img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
+
 
 .card:hover {
   box-shadow: 0 10px 20px #DAC0A3;
