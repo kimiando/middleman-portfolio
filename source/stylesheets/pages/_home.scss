@@ -47,8 +47,8 @@
 .section-pic-container{
   border-radius: 50%;
   object-fit: cover;
-          box-shadow: inset 0 0 0 9px white;
-  animation: profile-animate 8s ease-in-out infinite 1s;
+  box-shadow: inset 0 0 0 0.5px white;
+  animation: profile-animate 10s ease-in-out infinite 1s;
 }
 
 @keyframes profile-animate {

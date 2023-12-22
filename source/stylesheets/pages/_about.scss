@@ -22,28 +22,23 @@
   }
 }
 .header-about{
+  border: 2px solid white;
+  background-color: #DAC0A3;
+  margin-top: 10px;
+  text-align: center;
   h1{
     color: #0F2C59;
+    font-family: 'Diphylleia', serif;
+  }
+  a {
+    text-decoration: none;
+    color: pink;
   }
 }
   .about-pic-container {
     width: 380px;
     height: 450px;
     border: 10px solid #DAC0A3;
-}
-
-.header-about {
-  // text-align: center;
-  border: 2px solid white;
-  background-color: #DAC0A3;
-  margin-top: 10px;
-  text-align: center;
-  font-family: 'Diphylleia', serif;
-
-  a {
-    text-decoration: none;
-    color: pink;
-  }
 }
 
 .about-wrapper {
@@ -157,6 +152,9 @@ li label {
   }
 }
 
+.tab-labels{
+text-decoration: line-through gray;
+}
 @media only screen and (max-width: 640px){
 .tab-controls {
     display: flex;
