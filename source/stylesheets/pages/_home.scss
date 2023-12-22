@@ -1,8 +1,17 @@
+// Specific CSS for your home-page
+// section{
+//   padding-top: 4vh;
+//   height: 96vh;
+//   margin: 0 10rem;
+//   box-sizing: border-box;
+//   min-height: fit-content;
+// }
 
 .section-container{
   display: flex;
 }
 
+// profile section
 #profile{
   display: flex;
   justify-content: center;
@@ -11,7 +20,21 @@
   margin-right: 190px;
   margin-left: 140px;
 }
-
+//
+#profile {
+    height: 90vh;
+    /* margin-top: 6rem; */
+    /* margin-left: 1rem; */
+    margin-right: 0rem;
+    display: block;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 .section-pic-container{
   display: flex;
   height: 380px;
@@ -47,4 +70,5 @@
 .section-pic-container{
   border-radius: 50%;
   object-fit: cover;
+  // border: 2px solid #DAC0A3;
 }

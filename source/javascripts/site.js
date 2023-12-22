@@ -18,7 +18,7 @@ function switchMode() {
 // scroll
 document.addEventListener("DOMContentLoaded", function() {
   const toTop = document.querySelector(".go-top-button");
-  console.log("toTop:", toTop);
+  // console.log("toTop:", toTop);
 
   window.addEventListener("scroll", () => {
     console.log("Window scrollY:", window.pageYOffset);

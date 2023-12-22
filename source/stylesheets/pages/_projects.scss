@@ -12,6 +12,8 @@
   margin-top: 32px;
   h1{
     font-family: 'Tenor Sans';
+    font-family: 'Diphylleia', serif;
+    color: #d08c3e;
   }
 }
 .wrapper {
@@ -28,11 +30,15 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
   .card img{
     height: 280px;
   }
-
+  .card-box{
+    .techstack{
+      font-size: 26px;
+    }
+}
 }
 @media screen and (max-width: 1100px) {
   #projects{
@@ -100,6 +106,9 @@ width: 100%;
   .card-description{
     font-size: 18px;
   }
+  .techstack{
+    font-size: 20px;
+  }
 }
 .my-navbar .logo {
   margin-left: 6.7%;
@@ -112,11 +121,11 @@ width: 100%;
   flex-basis: calc(33.333% - 1rem);
   padding: 1rem;
   word-wrap: break-word;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
   border-radius: 0.25rem;
-  border: 1px solidrgba(255, 255, 255, 0.1);;
-  color: #d08c3e;
+  border: 0.20px solid #DAC0A3;
+  color: #D19C29;
   text-decoration: none;
   transition: 0.5s;
 object-fit: cover;
@@ -134,13 +143,15 @@ object-fit: cover;
 .card-title {
   margin-top: 15px;
   font-size: 35px;
-  font-family: 'Tenor Sans';
+  font-family: 'Diphylleia', serif;
 }
 .card-role{
 font-size: 20px;
+color: #b3acac;
+font-family: 'Diphylleia', serif;
 }
 .card-description{
-  font-family: 'Tenor Sans';
+  font-family: 'Diphylleia', serif;
   font-size: 23px;
 }
 
@@ -158,4 +169,6 @@ font-size: 20px;
 .link{
   display: flex;
   justify-content: center;
+  margin-bottom: 7px;
+  font-size: 18px;
 }

@@ -35,16 +35,16 @@
           <div class="card-proj">
             <h2 class="card-title"><%= project.name %></h2>
             <p class="card-role"><%= project.role %></p>
-            <p><%= project.techstack %></p>
+            <p class="techstack"><%= project.techstack %></p>
+            <div class="link">
+              <% link_to project.github, class: 'external-link', target: '_blank' do %>
+                <i class="fa-brands fa-github"></i>
+              <% end %>
+              <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                <i class="fas fa-external-link-alt"></i>
+              <% end %>
+            </div>
             <p class="card-description"><%= project.description %></p>
-          </div>
-          <div class="link">
-            <% link_to project.github, class: 'external-link', target: '_blank' do %>
-              <i class="fa-brands fa-github"></i>
-            <% end %>
-            <% link_to project.url, class: 'external-link', target: '_blank' do %>
-              <i class="fas fa-external-link-alt"></i>
-            <% end %>
           </div>
         </div>
       </div>
