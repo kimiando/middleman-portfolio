@@ -56,18 +56,18 @@
   url: https://www.google.com
   github: https://github.com/kimiando/weather-app
 
-- name: Giphy Search
-  role: Fullstack Developer
-  description: If you're a gif enthusiast, look no further! Embracing the world of animated expressions with just a single search.
-  image: projects/placeholder.png
-  techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
-  url: https://www.google.com
-  github: https://github.com/kimiando/Giphy
+# - name: Giphy Search
+#   role: Fullstack Developer
+#   description: If you're a gif enthusiast, look no further! Embracing the world of animated expressions with just a single search.
+#   image: projects/placeholder.png
+#   techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
+#   url: https://www.google.com
+#   github: https://github.com/kimiando/Giphy
 
-- name: Soluna
-  role: Fullstack Developer
-  description: Decent description of the app
-  image: projects/placeholder.png
-  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
-  url: https://www.google.com
-  github: https://github.com/kimiando/chat-box
+# - name: Soluna
+#   role: Fullstack Developer
+#   description: Decent description of the app
+#   image: projects/placeholder.png
+#   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
+#   url: https://www.google.com
+#   github: https://github.com/kimiando/chat-box
