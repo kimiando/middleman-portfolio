@@ -79,6 +79,9 @@
     align-items: flex-start;
     text-align: justify;
     font-family: 'Diphylleia', serif;
+    .video-content p {
+      width: 90%;
+  }
   }
   li {
       display: block;
@@ -126,9 +129,7 @@ li label {
 .tab-input {
   display: none;
 }
-// .tab-content {
-//   color:
-// }
+
 
 .tab-item {
   position: fixed;
@@ -144,7 +145,8 @@ li label {
       transform: translateY(0);
       transition: 0.3s ease-in-out;
       margin-bottom: 110px;
-      line-height: 25px;
+      line-height: 37px;
+      width: 95%;
   }
 
   @media (min-width: 40rem) {
@@ -166,6 +168,12 @@ li label {
     justify-content: space-around;
     align-items: center;
 }
+.tab-content {
+  width: 100%;
+}
+.video-content p {
+  width: 100%;
+}
 }
 @media only screen and (max-width: 999px){
   #about{
@@ -183,6 +191,12 @@ li label {
 }
 #contact {
   padding: 64px;
+}
+.tab-content {
+  width: 100%;
+}
+.video-content p {
+  width: 100%;
 }
 }
 
@@ -281,16 +295,46 @@ li label {
   border: 1px solid purple;
   text-align: center;
   // font-size: smaller;
-  width: 270px;
+  width: 310px;
+  padding: 20px;
   h3{
     font-size: 22px;
   }
+  .timeline-date{
+    font-style: italic;
+    margin-bottom: 10px;
+    color: grey;
+  }
   p {
-    font-size: 15px;
+    font-size: 14px;
     margin: -6px;
-}
+    line-height: 22px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
+}
+
+.video-content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  h3{
+    color:#D19C29;
+    text-align: center;
+  }
+  p {
+    padding: 10px;
+    color: gray;
+    width: 100%;
+}
+}
+.video{
+  justify-content: center;
+  display: flex;
+}
 p{
   text-align: justify;
 }
@@ -298,6 +342,7 @@ p{
   .timeline {
     display: grid;
     grid-template-columns: 2fr 3px 1fr;
+    margin-left: 22px;
   }
   .timeline-middle {
     position: relative;
@@ -388,6 +433,7 @@ p{
 .youtube-vid{
   width: 5000px;
   height: 315px;
+  justify-content: center;
 }
 }
 @media only screen and (max-width: 767px){
@@ -401,12 +447,18 @@ p{
       }
     }
 }
+.tab-content {
+  width: 100%;
+}
 }
 @media only screen and (max-width: 500px){
 .about-pic-container {
     margin: 5px;
     margin-left: 7%;
     margin-bottom: 25px;
+}
+.video-content p {
+  width: 130%;
 }
 }
 @media only screen and (max-width: 450px){
@@ -416,6 +468,9 @@ p{
     margin: 5px;
     margin-left: 2%;
     margin-bottom: 25px;
+}
+.tab-content {
+  width: 100%;
 }
 }
 @media only screen and (max-width: 430px){
@@ -429,6 +484,10 @@ p{
 .youtube-vid{
   width: 400px;
   height: 215px;
+  justify-content: center;
+}
+.tab-content {
+  width: 100%;
 }
 }
 @media only screen and (max-width: 414px){
