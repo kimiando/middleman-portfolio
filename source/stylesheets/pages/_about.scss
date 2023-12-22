@@ -22,12 +22,13 @@
   }
 }
 .header-about{
-  border: 2px solid white;
-  background-color: #DAC0A3;
+  border: 0.5px solid #D19C29;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
   margin-top: 10px;
   text-align: center;
   h1{
-    color: #0F2C59;
+    color: #D19C29;
     font-family: 'Diphylleia', serif;
   }
   a {
@@ -141,7 +142,7 @@ li label {
       transition: 0.3s ease-in-out;
       margin-bottom: 110px;
       line-height: 37px;
-      width: 95%;
+      // width: 95%;
       color: #D19C29;
   }
 
@@ -364,6 +365,9 @@ p{
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+  .tab-content{
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 1199px){
@@ -382,7 +386,6 @@ p{
     margin-left: 28%;
     margin-bottom: 25px;
   }
-
 }
 @media only screen and (max-width: 999px){
   .about-wrapper {
@@ -419,8 +422,8 @@ p{
   align-items: center;
   padding: 25px;
   margin-bottom: 130px;
-  width: 108%;
-  margin-left: -10px;
+  width: 100%;
+  // margin-left: -10px;
 }
 .mobile{
   display: contents;
@@ -467,11 +470,14 @@ p{
     width: 350;
     height: 450px;
     margin: 5px;
-    margin-left: 2%;
+    // margin-left: 2%;
     margin-bottom: 25px;
 }
-.tab-content {
-  width: 100%;
+.tab-item {
+  p{
+    margin: -17px;
+    margin-bottom: 25px;
+  }
 }
 }
 @media only screen and (max-width: 430px){
