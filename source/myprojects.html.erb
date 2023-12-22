@@ -38,12 +38,14 @@
             <p><%= project.techstack %></p>
             <p class="card-description"><%= project.description %></p>
           </div>
-          <% link_to project.github, class: 'external-link', target: '_blank' do %>
-            <i class="fa-brands fa-github"></i>
-          <% end %>
-          <% link_to project.url, class: 'external-link', target: '_blank' do %>
-            <i class="fas fa-external-link-alt"></i>
-          <% end %>
+          <div class="link">
+            <% link_to project.github, class: 'external-link', target: '_blank' do %>
+              <i class="fa-brands fa-github"></i>
+            <% end %>
+            <% link_to project.url, class: 'external-link', target: '_blank' do %>
+              <i class="fas fa-external-link-alt"></i>
+            <% end %>
+          </div>
         </div>
       </div>
     <% end %>

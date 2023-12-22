@@ -16,7 +16,7 @@
 
 - name: Movie Watchlist
   role: Fullstack Developer
-  description: Decent description of the app
+  description: I created a user-friendly movie catalog as my project at Le Wagon. With this simple yet effective application, users can effortlessly list their favorite movies, leave comments, and stay in the loop with the latest top-rated films.
   image: projects/watch-list.png
   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
   url: https://www.google.com
@@ -33,13 +33,13 @@
 
 - name: To Do List
   role: Fullstack Developer
-  description: Decent description of the app
+  description: Experience seamless task management with this one-page to-do list. This user-friendly interface enables you to effortlessly add, delete, and edit tasks.
   image: projects/todolist-react.png
   techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i>  <i class="devicon-css3-plain"></i>
   url: https://www.google.com
   github: https://github.com/kimiando/to-do-list
 
-- name: Coffee
+- name: Coffee Inspired Landing Page
   role: Frontend Developer
   description: simple landing page for coffee shops
   image: projects/coffee.png
@@ -50,15 +50,15 @@
 
 - name: Weather App
   role: Fullstack Developer
-  description: Decent description of the app
+  description: Users can conveniently check the current temperature of their city using the weather app that I developed. The app provides real-time weather information, offering a quick and efficient way to stay updated on local conditions.
   image: projects/placeholder.png
   techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
   url: https://www.google.com
   github: https://github.com/kimiando/weather-app
 
 - name: Giphy Search
-  role: Backend Developer
-  description: Decent description of the app
+  role: Fullstack Developer
+  description: If you're a gif enthusiast, look no further! Embracing the world of animated expressions with just a single search.
   image: projects/placeholder.png
   techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
   url: https://www.google.com
