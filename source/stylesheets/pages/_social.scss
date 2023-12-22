@@ -29,6 +29,11 @@
   .socials-container{
     margin-top: 25vh;
   }
+  .my-navbar{
+        .logo{
+      margin-left: 16.7%;
+    }
+  }
   .mobile{
     padding: 25px;
     padding-bottom: 50px;
@@ -36,6 +41,13 @@
       font-size: 30px;
     }
   }
+}
+@media only screen and (max-width: 2000px) {
+  .my-navbar{
+    .logo{
+      margin-left: 6.7%;
+}
+}
 }
 
 .navbar{
@@ -73,13 +85,11 @@
     width: 100%;
     width: 86%;
     margin: 10px -10px;
-    .logo{
-      margin-left: 16.7%;
-    }
+
     ul{
       flex: 1;
       text-align: right;
-      margin-top: -34px;
+      margin-top: -49px;
 
     }
     ul li{
