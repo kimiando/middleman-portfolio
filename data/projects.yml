@@ -1,56 +1,73 @@
 - name: SongFlow
   role: Backend Developer
-  description: Decent description of the app
+  description: Made in two weeks, this is my final project at Le Wagon. It's a web app that allows you to store your favorite music in a playlist—perfect for a karaoke night out!
   image: projects/songflow.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-javascript-plain"> </i><i class="devicon-postgresql-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-heroku-original"></i>
   url: https://www.google.com
-  # github:
+  github: https://github.com/kimiando/SongFlow
 
 - name: Sinister Staycation
   role: Fullstack Developer
-  description: Decent description of the app
+  description: Our website, inspired by the Airbnb model, offers a platform for renting out haunted apartments, created in just one week.
   image: projects/haunted.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-postgresql-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-heroku-original"></i>
   url: https://www.google.com
-  #   github:
+  github: https://github.com/kimiando/Sinister-Staycation
 
 - name: Movie Watchlist
   role: Fullstack Developer
   description: Decent description of the app
   image: projects/watch-list.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
   url: https://www.google.com
-    # github:
+  github: https://github.com/kimiando/watch-list
 
 
-- name: To Do List (Ruby)
+- name: Task Manager
   role: Fullstack Developer
-  description: Decent description of the app
+  description: Simplify your daily routine with this easy-to-use task manager. Stay organized and efficiently manage your daily tasks.
   image: projects/todolist-rails.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
   url: https://www.google.com
-  #   github:
+  github: https://github.com/kimiando/Task-Manager
 
-- name: To Do List (React)
+- name: To Do List
   role: Fullstack Developer
   description: Decent description of the app
   image: projects/todolist-react.png
+  techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i>  <i class="devicon-css3-plain"></i>
   url: https://www.google.com
-#   github:
+  github: https://github.com/kimiando/to-do-list
 
 - name: Coffee
   role: Frontend Developer
   description: simple landing page for coffee shops
   image: projects/coffee.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i>
   url: https://www.google.com
-    # github:
+  github: https://github.com/kimiando/coffee-beans
+
+
+- name: Weather App
+  role: Fullstack Developer
+  description: Decent description of the app
+  image: projects/placeholder.png
+  techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
+  url: https://www.google.com
+  github: https://github.com/kimiando/weather-app
 
 - name: Giphy Search
   role: Backend Developer
   description: Decent description of the app
   image: projects/placeholder.png
+  techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
   url: https://www.google.com
-  #   github:
+  github: https://github.com/kimiando/Giphy
 
 - name: Soluna
   role: Fullstack Developer
   description: Decent description of the app
   image: projects/placeholder.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
   url: https://www.google.com
-    # github:
+  github: https://github.com/kimiando/chat-box
