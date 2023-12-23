@@ -18,7 +18,7 @@
   role: Fullstack Developer
   description: I created a user-friendly movie catalog as my project at Le Wagon. With this simple yet effective application, users can effortlessly list their favorite movies, leave comments, and stay in the loop with the latest top-rated films.
   image: projects/watch-list.png
-  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-css3-plain"></i>
   url: https://www.google.com
   github: https://github.com/kimiando/watch-list
 
@@ -43,7 +43,7 @@
   role: Frontend Developer
   description: simple landing page for coffee shops
   image: projects/coffee.png
-  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i>
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-bootstrap-plain"></i>
   url: https://www.google.com
   github: https://github.com/kimiando/coffee-beans
 
@@ -66,7 +66,7 @@
 
 # - name: Soluna
 #   role: Fullstack Developer
-#   description: Decent description of the app
+#   description:
 #   image: projects/placeholder.png
 #   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
 #   url: https://www.google.com
