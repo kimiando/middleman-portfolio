@@ -19,7 +19,7 @@
   description: I created a user-friendly movie catalog as my project at Le Wagon. With this simple yet effective application, users can effortlessly list their favorite movies, leave comments, and stay in the loop with the latest top-rated films.
   image: projects/watch-list.png
   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-css3-plain"></i>
-  url: https://www.google.com
+  # url: https://www.google.com
   github: https://github.com/kimiando/watch-list
 
 
@@ -28,7 +28,7 @@
   description: Simplify your daily routine with this easy-to-use task manager. Stay organized and efficiently manage your daily tasks.
   image: projects/todolist-rails.png
   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
-  url: https://www.google.com
+  # url: https://www.google.com
   github: https://github.com/kimiando/Task-Manager
 
 - name: To Do List
@@ -36,7 +36,7 @@
   description: Experience seamless task management with this one-page to-do list. This user-friendly interface enables you to effortlessly add, delete, and edit tasks.
   image: projects/todolist-react.png
   techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i>  <i class="devicon-css3-plain"></i>
-  url: https://www.google.com
+  # url: https://www.google.com
   github: https://github.com/kimiando/to-do-list
 
 - name: Coffee Inspired Landing Page
@@ -44,7 +44,7 @@
   description: simple landing page for coffee shops
   image: projects/coffee.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-bootstrap-plain"></i>
-  url: https://www.google.com
+  # url: https://www.google.com
   github: https://github.com/kimiando/coffee-beans
 
 
@@ -53,7 +53,7 @@
   description: Users can conveniently check the current temperature of their city using the weather app that I developed. The app provides real-time weather information, offering a quick and efficient way to stay updated on local conditions.
   image: projects/placeholder.png
   techstack: <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i class="devicon-css3-plain"></i>
-  url: https://www.google.com
+  # url: https://www.google.com
   github: https://github.com/kimiando/weather-app
 
 # - name: Giphy Search
@@ -64,10 +64,10 @@
 #   url: https://www.google.com
 #   github: https://github.com/kimiando/Giphy
 
-# - name: Soluna
-#   role: Fullstack Developer
-#   description:
-#   image: projects/placeholder.png
-#   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
-#   url: https://www.google.com
-#   github: https://github.com/kimiando/chat-box
+- name: Soluna
+  role: Fullstack Developer
+  description: on-going project
+  image: projects/placeholder.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/chat-box
