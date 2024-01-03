@@ -18,16 +18,16 @@ function switchMode() {
 // scroll
 document.addEventListener("DOMContentLoaded", function() {
   const toTop = document.querySelector(".go-top-button");
-  console.log("toTop:", toTop);
+  // console.log("toTop:", toTop);
 
   window.addEventListener("scroll", () => {
-    console.log("Window scrollY:", window.pageYOffset);
+    // console.log("Window scrollY:", window.pageYOffset);
 
     if (toTop && window.pageYOffset > 60) {
-      console.log("Adding 'active' class");
+      // console.log("Adding 'active' class");
       toTop.classList.add("active");
     } else if (toTop) {
-      console.log("Removing 'active' class");
+      // console.log("Removing 'active' class");
       toTop.classList.remove("active");
     }
   });
@@ -112,3 +112,6 @@ window.onload = function() {
     injectCss();
   }, 1000);
 };
+
+
+// filter
