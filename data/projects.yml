@@ -1,4 +1,5 @@
 - name: SongFlow
+  main: Ruby
   role: Backend Developer
   description: Made in two weeks, this is my final project at Le Wagon. It's a web app that allows you to store your favorite music in a playlist—perfect for a karaoke night out!
   image: projects/songflow.png
@@ -7,6 +8,7 @@
   github: https://github.com/kimiando/SongFlow
 
 - name: Sinister Staycation
+  main: Ruby
   role: Fullstack Developer
   description: Our website, inspired by the Airbnb model, offers a platform for renting out haunted apartments, created in just one week.
   image: projects/hauntedproperty.png
@@ -15,6 +17,7 @@
   github: https://github.com/kimiando/Sinister-Staycation
 
 - name: Movie Watchlist
+  main: Ruby
   role: Fullstack Developer
   description: I created a user-friendly movie catalog as my project at Le Wagon. With this simple yet effective application, users can effortlessly list their favorite movies, leave comments, and stay in the loop with the latest top-rated films.
   image: projects/watch-list.png
@@ -24,6 +27,7 @@
 
 
 - name: Task Manager
+  main: Ruby
   role: Fullstack Developer
   description: Simplify your daily routine with this easy-to-use task manager. Stay organized and efficiently manage your daily tasks.
   image: projects/todolist-rails.png
@@ -32,6 +36,7 @@
   github: https://github.com/kimiando/Task-Manager
 
 - name: To Do List
+  main: Ruby
   role: Fullstack Developer
   description: Experience seamless task management with this one-page to-do list. This user-friendly interface enables you to effortlessly add, delete, and edit tasks.
   image: projects/todolist-react.png
@@ -40,6 +45,7 @@
   github: https://github.com/kimiando/to-do-list
 
 - name: Coffee Inspired Landing Page
+  main: HTML
   role: Frontend Developer
   description: simple landing page for coffee shops
   image: projects/coffee.png
@@ -49,6 +55,7 @@
 
 
 - name: Weather App
+  main: JavaScript
   role: Fullstack Developer
   description: Users can conveniently check the current temperature of their city using the weather app that I developed. The app provides real-time weather information, offering a quick and efficient way to stay updated on local conditions.
   image: projects/placeholder.png
@@ -66,6 +73,7 @@
 
 - name: Soluna
   role: Fullstack Developer
+  main: Ruby
   description: on-going project
   image: projects/placeholder.png
   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
