@@ -115,3 +115,20 @@ window.onload = function() {
 
 
 // filter
+function filterProjects(mainTech) {
+  var cards = document.querySelectorAll('.card');
+
+  cards.forEach(function(card) {
+    var cardMainTech = card.getAttribute('data-main');
+
+    if (cardMainTech) {
+      if (mainTech === 'All' || cardMainTech === mainTech) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}

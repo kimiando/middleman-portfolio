@@ -26,13 +26,14 @@
 <section id="projects">
   <div class="project-header">
     <h1>My Projects</h1>
+    <button class="btn" onclick="filterProjects('All')">All</button>
     <button class="btn" onclick="filterProjects('Ruby')">Ruby</button>
     <button class="btn" onclick="filterProjects('HTML')">HTML</button>
     <button class="btn" onclick="filterProjects('JavaScript')">JavaScript</button>
   </div>
   <div class="wrapper">
     <% data.projects.each do |project| %>
-      <div class="card">
+      <div class="card" data-main="<%= project.main %>">
         <%= image_tag project.image, alt: "project image" %>
         <div class="card-box">
           <div class="card-proj">
