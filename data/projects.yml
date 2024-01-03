@@ -79,3 +79,30 @@
   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/chat-box
+
+- name: Drum Kit 🥁
+  # role: Fullstack Developer
+  main: JavaScript
+  description: on-going project
+  image: projects/drum-kit.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/drum-kit
+
+- name: Clock 🕓
+  # role: Fullstack Developer
+  main: JavaScript
+  description: on-going project
+  image: projects/clock.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/js-clock
+
+- name: JS-CSS-Image
+  # role: Fullstack Developer
+  main: JavaScript
+  description: on-going project
+  image: projects/js-image.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/js-image
