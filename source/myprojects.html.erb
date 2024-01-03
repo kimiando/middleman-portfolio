@@ -26,10 +26,12 @@
 <section id="projects">
   <div class="project-header">
     <h1>My Projects</h1>
-    <button class="btn" onclick="filterProjects('All')">All</button>
-    <button class="btn" onclick="filterProjects('Ruby')">Ruby</button>
-    <button class="btn" onclick="filterProjects('HTML')">HTML</button>
-    <button class="btn" onclick="filterProjects('JavaScript')">JavaScript</button>
+    <div class="project-btn">
+      <button class=" btn project-button" onclick="filterProjects('All')">All</button>
+      <button class="project-button" onclick="filterProjects('Ruby')">Ruby</button>
+      <button class="project-button" onclick="filterProjects('HTML')">HTML</button>
+      <button class="project-button" onclick="filterProjects('JavaScript')">JavaScript</button>
+    </div>
   </div>
   <div class="wrapper">
     <% data.projects.each do |project| %>
