@@ -83,7 +83,7 @@
 - name: Drum Kit 🥁
   # role: Fullstack Developer
   main: JavaScript
-  description: on-going project
+  description: Drum kit is a basic web app that lets users play drum sounds by pressing keys on their keyboard.
   image: projects/drum-kit.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
@@ -92,7 +92,7 @@
 - name: Clock 🕓
   # role: Fullstack Developer
   main: JavaScript
-  description: on-going project
+  description: Experience real-time updates with a clock that effortlessly refreshes every second, offering you an accurate and continuous display of the current time.
   image: projects/clock.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
@@ -101,8 +101,17 @@
 - name: JS-CSS-Image
   # role: Fullstack Developer
   main: JavaScript
-  description: on-going project
+  description: Users can customize the border, blur effect, and the color of the border with the given image.
   image: projects/js-image.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/js-image
+
+- name: Search by Cities
+  # role: Fullstack Developer
+  main: JavaScript
+  description: Find cities in the United States in just one search.
+  image: search-by-cities.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/search-by-city
