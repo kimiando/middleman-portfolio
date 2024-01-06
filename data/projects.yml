@@ -36,7 +36,7 @@
   github: https://github.com/kimiando/Task-Manager
 
 - name: To Do List
-  main: Ruby
+  main: Javascript
   role: Fullstack Developer
   description: Experience seamless task management with this one-page to-do list. This user-friendly interface enables you to effortlessly add, delete, and edit tasks.
   image: projects/todolist-react.png
