@@ -47,7 +47,7 @@
 - name: Coffee Inspired Landing Page
   main: HTML
   role: Frontend Developer
-  description: simple landing page for coffee shops
+  description: simple landing page for coffee shops ☕️
   image: projects/coffee.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-bootstrap-plain"></i>
   # url: https://www.google.com
@@ -110,8 +110,8 @@
 - name: Search by Cities
   # role: Fullstack Developer
   main: JavaScript
-  description: Find cities in the United States in just one search.
-  image: search-by-cities.png
+  description: Find cities and their populations in the United States
+  image: projects/us-city.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/search-by-city
