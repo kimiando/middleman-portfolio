@@ -115,3 +115,12 @@
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/search-by-city
+
+- name: HTML Canvas
+  # role: Fullstack Developer
+  main: JavaScript
+  description: Draw Anything!
+  image: projects/html-canvas.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/search-by-city
