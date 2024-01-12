@@ -71,14 +71,14 @@
 #   url: https://www.google.com
 #   github: https://github.com/kimiando/Giphy
 
-- name: Soluna
-  role: Fullstack Developer
-  main: Ruby
-  description: on-going project
-  image: projects/placeholder.png
-  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
-  # url: https://www.google.com
-  github: https://github.com/kimiando/chat-box
+# - name: Soluna
+#   role: Fullstack Developer
+#   main: Ruby
+#   description: on-going project
+#   image: projects/placeholder.png
+#   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i>
+#   # url: https://www.google.com
+#   github: https://github.com/kimiando/chat-box
 
 - name: Drum Kit 🥁
   # role: Fullstack Developer
@@ -124,3 +124,21 @@
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/search-by-city
+
+- name: Currency Converter
+  # role: Fullstack Developer
+  main: JavaScript
+  description: Seamlessly convert currencies with a sleek and user-friendly interface!
+  image: projects/currency.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/currency-converter
+
+- name: Joke Generator
+  # role: Fullstack Developer
+  main: JavaScript
+  description: Building a fun and interactive Joke Generator using HTML, CSS, and JavaScript. Get ready to laugh out loud with this entertaining project!
+  image: projects/joke1.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/joke-generator
