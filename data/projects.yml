@@ -142,3 +142,12 @@
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/joke-generator
+
+- name: Dictionary
+  # role: Fullstack Developer
+  main: JavaScript
+  description: Explore an extensive array of words along with their meanings and pronunciations.
+  image: projects/dictionary.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/dictionary
