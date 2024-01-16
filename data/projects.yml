@@ -151,3 +151,12 @@
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/dictionary
+
+- name: Recipe Finder
+  # role: Fullstack Developer
+  main: JavaScript
+  description: Find your favorite food and search for the recipe.
+  image: projects/recipe.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/recipe-finder
