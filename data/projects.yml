@@ -152,7 +152,7 @@
   # url: https://www.google.com
   github: https://github.com/kimiando/dictionary
 
-- name: Recipe Finder
+- name: Recipe Finder 🔎
   # role: Fullstack Developer
   main: JavaScript
   description: Find your favorite food and search for the recipe.
