@@ -169,3 +169,12 @@
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/simple-meme
+
+- name: Score-Board
+  # role: Fullstack Developer
+  main: Javascript
+  # description: A fun project inspired by a quote from the character Barney from "How I Met Your Mother."
+  image: projects/scoreboard.png
+  techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
+  # url: https://www.google.com
+  github: https://github.com/kimiando/scoreboard
