@@ -126,11 +126,13 @@
   background: center;
 
   &:hover {
-    color: #DAC0A2;
+    // color: #DAC0A2;
+    color: gray;
+    text-decoration:overline;
   }
 
   &:active {
-    color: #9c7623;
+    color: gray;
     text-decoration:underline;
   }
 }

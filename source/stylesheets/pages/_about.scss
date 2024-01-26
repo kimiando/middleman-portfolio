@@ -108,19 +108,21 @@
 }
 li label {
   font-size: 1.2rem;
-  color: #DAC0A2;
+  color: #D19C29;
   text-transform: uppercase;
   text-decoration: none;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 
   &:hover {
-    color: #D19C29;
+    // color: #DAC0A2;
+    color: gray;
+    text-decoration:underline;
   }
 
   &:active {
-    color: #D19C29;
-    text-decoration:underline;
+    color: gray;
+    text-decoration:overline;
   }
 }
 .tab-input {
