@@ -124,4 +124,13 @@
   border: none;
   color: #D19C29;
   background: center;
+
+  &:hover {
+    color: #DAC0A2;
+  }
+
+  &:active {
+    color: #9c7623;
+    text-decoration:underline;
+  }
 }
