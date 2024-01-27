@@ -173,7 +173,7 @@
 - name: Score-Board
   # role: Fullstack Developer
   main: Javascript
-  # description: A fun project inspired by a quote from the character Barney from "How I Met Your Mother."
+  description: A simple scoreboard for scorekeeping. With a straightforward interface, this scoreboard allows you to add points or deduct points for each team at the touch of a button.
   image: projects/scoreboard.png
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
