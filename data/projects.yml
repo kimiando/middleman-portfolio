@@ -178,3 +178,12 @@
   techstack: <i class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-javascript-plain"></i>
   # url: https://www.google.com
   github: https://github.com/kimiando/scoreboard
+
+- name: Soluna
+  role: Fullstack Developer
+  main: Ruby
+  description: Soluna(on-going project) - A messaging app inspired by the Spanish words "sol" (day) and "luna" (night). Join immersive group chats, connect with new faces, and enjoy vibrant conversations around the clock. 🌞🌙
+  image: projects/soluna.png
+  techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-postgresql-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-heroku-original"></i>
+  url: https://soluna-509dd188eb97.herokuapp.com/
+  github: https://github.com/kimiando/Soluna

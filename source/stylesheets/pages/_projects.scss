@@ -15,7 +15,7 @@
     color: #D19C29;
     border: 0.5px solid #D19C29;
     background: rgba(255, 255, 255, 0.01);
-    border-radius: 50px;
+    border-radius: 10px;
     /* margin: 11px; */
     padding: 7px;
     // align-items: center;
@@ -49,6 +49,7 @@
   .card img{
     height: 240px;
     width: 100%;
+    object-fit: cover;
   }
   .card-box{
     .techstack{
