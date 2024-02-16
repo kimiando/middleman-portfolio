@@ -194,5 +194,5 @@
   description: (Ongoing Project) As a teen, I fondly remember using the website "Ask.fm," and that nostalgia inspired me to create AskFizz—a platform for asking with excitement. This ongoing project is a website-clone that captures the essence of the original experience, emphasizing not only the curiosity and questions but also the fizz and excitement it brings. Anonymity takes center stage, creating a space where users can inquire with a sense of thrill and anticipation.
   image: projects/askfizz.png
   techstack: <i class="devicon-ruby-plain"></i> <i class="devicon-rails-plain"></i> <i class="devicon-postgresql-plain"></i> <i class="devicon-css3-plain"></i> <i class="devicon-figma-plain"></i> <i class="devicon-bootstrap-plain"></i> <i class="devicon-heroku-original"></i>
-  # url:
+  url: https://askfizz-b85e6888a939.herokuapp.com/
   github: https://github.com/kimiando/AskFizz
