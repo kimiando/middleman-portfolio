@@ -1,5 +1,5 @@
-# Middleman Template
-A simple way to build static pages with a Rails feel.
+# My-Portfolio using the Middleman Template
+Check out my portfolio, built with Middleman for a clean and efficient design. It's like having the simplicity of Rails for static pages. Explore my projects and skills in an easy-to-navigate format.
 
 ## Using
 
