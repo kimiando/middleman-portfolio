@@ -11,7 +11,6 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
-  // color: black;
 }
 
 .card-product img {
@@ -30,7 +29,6 @@
 .card-product p {
   font-size: 12px;
   line-height: 1.4;
-  // opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
   color: #e3b450b4;
@@ -117,22 +115,16 @@
 .project-btn:active {
   color: gray;
 }
-// .project-btn p {
-//   font-size: 20px;
-// }
 .project-button{
   border: none;
   color: #D19C29;
   background: center;
 
   &:hover {
-    // color: #DAC0A2;
     color: gray;
-    // text-decoration:overline;
   }
 
   &:active {
     color: gray;
-    // text-decoration:underline;
   }
 }

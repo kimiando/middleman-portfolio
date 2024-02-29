@@ -60,13 +60,11 @@
   width: 100%;
   margin: 0;
   padding: 0 0 1rem;
-  // border-bottom: 1px solid black;
   margin-top: 90px;
   margin-top: unset;
   row-gap: 28px;
   @media (min-width: 40rem) {
     display: flex;
-    // padding: 0;
     border: none;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +93,6 @@
               left: 100%;
               width: 2px;
               height: 15px;
-              // background: $ultralight;
               transform: translateY(-50%);
           }
 
@@ -115,14 +112,11 @@ li label {
   cursor: pointer;
 
   &:hover {
-    // color: #DAC0A2;
     color: gray;
-    // text-decoration:underline;
   }
 
   &:active {
     color: gray;
-    // text-decoration:overline;
   }
 }
 .tab-input {
@@ -145,20 +139,14 @@ li label {
       transition: 0.3s ease-in-out;
       margin-bottom: 110px;
       line-height: 37px;
-      // width: 95%;
       color: #D19C29;
   }
 
   @media (min-width: 40rem) {
       font-size: 1.2rem;
-      // line-height: 2;
-      // padding: 19px;
   }
 }
 
-// .tab-labels{
-// text-decoration: line-through gray;
-// }
 @media only screen and (max-width: 640px){
 .tab-controls {
     display: flex;
@@ -186,8 +174,6 @@ li label {
   display: flex;
   padding: 0;
   border: none;
-  /* text-align: center; */
-  /* flex-wrap: wrap; */
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -244,7 +230,6 @@ li label {
   .go-top-button.active {
 
     margin: 65px;
-    /* margin: 42px; */
     margin-right: -40px;
   }
   .go-top-button.active {
@@ -252,9 +237,7 @@ li label {
     pointer-events: auto;
     opacity: 1;
     transition: all 0.3s;
-    // margin-bottom: 70px;
     margin: 65px;
-    /* margin: 42px; */
     margin-right: -40px;
   }
   }
@@ -279,7 +262,6 @@ li label {
 
 .timeline {
   width: 80%;
-  // height: auto;
   max-width: 800px;
   margin: 0 auto;
   display: flex;
@@ -297,7 +279,6 @@ li label {
   padding: 0.75rem;
   border: 1px dotted #D19C29;
   text-align: center;
-  // font-size: smaller;
   width: 310px;
   padding: 20px;
 
@@ -383,7 +364,6 @@ p{
   .about-wrapper {
     display: block;
     margin: 0;
-    // height: 115vh;
   }
   .about-pic-container{
     margin: 5px;
@@ -407,7 +387,6 @@ p{
   }
   .timeline {
     width: 80%;
-    // height: auto;
     max-width: 801px;
     margin: 0 auto;
     display: flex;
@@ -430,7 +409,6 @@ p{
   padding: 25px;
   margin-bottom: 130px;
   width: 100%;
-  // margin-left: -10px;
 }
 .mobile{
   display: contents;
@@ -439,7 +417,6 @@ p{
   flex: 1;
   text-align: right;
   margin-top: -34px;
-  // margin-bottom: 47px;
 }
 .youtube-vid{
   width: 5000px;
@@ -477,7 +454,6 @@ p{
     width: 350;
     height: 450px;
     margin: 5px;
-    // margin-left: 2%;
     margin-bottom: 25px;
 }
 .tab-item {
@@ -491,7 +467,6 @@ p{
 .about-pic-container {
   width: 350px;
   height: 450px;
-  /* margin: 0px; */
   margin-left: 12px;
   margin-bottom: 25px;
 }
