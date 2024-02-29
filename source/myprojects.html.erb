@@ -2,61 +2,59 @@
   <h1 class="logo">kimiko ando</h1>
   <ul class= "desktop-list">
     <li><%= link_to "Home", "index.html" %></li>
-    <%# <li><%= link_to "About", "/#about.html" %></li>
-  <%# <li><a href="#projects">Projects</a></li> %>
-  <li><%= link_to "Projects", "myprojects.html" %></li>
-  <li><%= link_to "Contact", "contact.html" %></li>
-</ul>
-<ul>
-  <ul class="mobile">
-    <li><% link_to "index.html" do %>
-        <i class="fa-solid fa-house mobile-icon" style="color: white;"></i>
-      <% end %>
-    </li>
-    <li><% link_to "myprojects.html" do %>
-        <i class="fa-solid fa-diagram-project" style="color: white;"></i>
-      <% end %>
-    </li>
-    <li><% link_to"contact.html" do %>
-        <i class="fa-solid fa-address-book mobile-icon"style="color: white;"></i>
-      <% end %>
-    </ul>
+    <li><%= link_to "Projects", "myprojects.html" %></li>
+    <li><%= link_to "Contact", "contact.html" %></li>
   </ul>
-</nav>
-<section id="projects">
-  <div class="project-header">
-    <h1>My Projects</h1>
-    <div class="project-btn">
-      <button class="project-button" onclick="filterProjects('All')">All</button>
-      <div class="vr"></div>
-      <button class="project-button" onclick="filterProjects('Ruby')">Ruby</button>
-      <div class="vr"></div>
-      <button class="project-button" onclick="filterProjects('HTML')">HTML</button>
-      <div class="vr"></div>
-      <button class="project-button" onclick="filterProjects('JavaScript')">JavaScript</button>
+  <ul>
+    <ul class="mobile">
+      <li><% link_to "index.html" do %>
+          <i class="fa-solid fa-house mobile-icon" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to "myprojects.html" do %>
+          <i class="fa-solid fa-diagram-project" style="color: white;"></i>
+        <% end %>
+      </li>
+      <li><% link_to"contact.html" do %>
+          <i class="fa-solid fa-address-book mobile-icon"style="color: white;"></i>
+        <% end %>
+      </ul>
+    </ul>
+  </nav>
+  <section id="projects">
+    <div class="project-header">
+      <h1>My Projects</h1>
+      <div class="project-btn">
+        <button class="project-button" onclick="filterProjects('All')">All</button>
+        <div class="vr"></div>
+        <button class="project-button" onclick="filterProjects('Ruby')">Ruby</button>
+        <div class="vr"></div>
+        <button class="project-button" onclick="filterProjects('HTML')">HTML</button>
+        <div class="vr"></div>
+        <button class="project-button" onclick="filterProjects('JavaScript')">JavaScript</button>
+      </div>
     </div>
-  </div>
-  <div class="wrapper">
-    <% data.projects.each do |project| %>
-      <div class="card" data-main="<%= project.main %>">
-        <%= image_tag project.image, alt: "project image" %>
-        <div class="card-box">
-          <div class="card-proj">
-            <h2 class="card-title"><%= project.name %></h2>
-            <p class="card-role"><%= project.role %></p>
-            <p class="techstack"><%= project.techstack %></p>
-            <div class="link">
-              <% link_to project.github, class: 'external-link', target: '_blank' do %>
-                <i class="fa-brands fa-github"></i>
-              <% end %>
-              <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                <i class="fas fa-external-link-alt"></i>
-              <% end %>
+    <div class="wrapper">
+      <% data.projects.each do |project| %>
+        <div class="card" data-main="<%= project.main %>">
+          <%= image_tag project.image, alt: "project image" %>
+          <div class="card-box">
+            <div class="card-proj">
+              <h2 class="card-title"><%= project.name %></h2>
+              <p class="card-role"><%= project.role %></p>
+              <p class="techstack"><%= project.techstack %></p>
+              <div class="link">
+                <% link_to project.github, class: 'external-link', target: '_blank' do %>
+                  <i class="fa-brands fa-github"></i>
+                <% end %>
+                <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                  <i class="fas fa-external-link-alt"></i>
+                <% end %>
+              </div>
+              <p class="card-description"><%= project.description %></p>
             </div>
-            <p class="card-description"><%= project.description %></p>
           </div>
         </div>
-      </div>
-    <% end %>
-  </div>
-  <section>
+      <% end %>
+    </div>
+    <section>
